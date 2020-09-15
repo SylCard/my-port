@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/my-port/static/js/2.227e2853.chunk.js"
   },
   {
-    "revision": "2153a12d1db4eda5b954e54532175e5d",
-    "url": "/my-port/static/media/CircularStd-BlackItalic.2153a12d.woff"
-  },
-  {
     "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
     "url": "/my-port/static/media/CircularStd-Black.b5fa1b55.woff"
+  },
+  {
+    "revision": "2153a12d1db4eda5b954e54532175e5d",
+    "url": "/my-port/static/media/CircularStd-BlackItalic.2153a12d.woff"
   },
   {
     "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/my-port/static/media/CircularStd-MediumItalic.eddb7021.woff"
   },
   {
-    "revision": "c47d7e581f2a563f8dedd4509c106fb8",
-    "url": "/my-port/static/media/CircularStd-Book.c47d7e58.woff"
-  },
-  {
     "revision": "cc06409e5a820f455b3b4883fbf9b72f",
     "url": "/my-port/static/media/CircularStd-BookItalic.cc06409e.woff"
+  },
+  {
+    "revision": "c47d7e581f2a563f8dedd4509c106fb8",
+    "url": "/my-port/static/media/CircularStd-Book.c47d7e58.woff"
   },
   {
     "revision": "a422118babdf802bc395213c130f6396",
