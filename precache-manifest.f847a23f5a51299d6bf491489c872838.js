@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "32090b28f77996031b5c",
+    "revision": "8366e438d7fc7981efdf",
     "url": "/static/css/main.f305c2e7.chunk.css"
   },
   {
-    "revision": "32090b28f77996031b5c",
-    "url": "/static/js/main.11233477.chunk.js"
+    "revision": "8366e438d7fc7981efdf",
+    "url": "/static/js/main.d6005278.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,24 +16,20 @@ self.__precacheManifest = [
     "url": "/static/js/2.227e2853.chunk.js"
   },
   {
-    "revision": "2153a12d1db4eda5b954e54532175e5d",
-    "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
-  },
-  {
-    "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
-    "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
-  },
-  {
     "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
     "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
   },
   {
-    "revision": "8d5dbe8149820b1202cbaf34b7204598",
-    "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
-  },
-  {
     "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
     "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
+  },
+  {
+    "revision": "2153a12d1db4eda5b954e54532175e5d",
+    "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
+  },
+  {
+    "revision": "8d5dbe8149820b1202cbaf34b7204598",
+    "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
   },
   {
     "revision": "eddb70218f38749eaeeed7fba894fda8",
@@ -46,6 +42,10 @@ self.__precacheManifest = [
   {
     "revision": "cc06409e5a820f455b3b4883fbf9b72f",
     "url": "/static/media/CircularStd-BookItalic.cc06409e.woff"
+  },
+  {
+    "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
+    "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
   },
   {
     "revision": "a422118babdf802bc395213c130f6396",
@@ -212,7 +212,7 @@ self.__precacheManifest = [
     "url": "/static/media/prismvideo-img09.5790cb6f.png"
   },
   {
-    "revision": "747c5bdf59c32960048d6d75a24b3f14",
+    "revision": "e1c752c3ca2b7f8c5d3a1769ee55c478",
     "url": "/index.html"
   }
 ];
