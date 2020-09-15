@@ -89,6 +89,15 @@
   transition: color 0.2s;
 }
 
+.demo {
+  color: #BBBBBB;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.demo:hover {
+  color: #02CF5D;
+}
+
 .header .navigation div a:hover {
   color: black !important;
 }
@@ -151,7 +160,7 @@
 }
 
 .header .navigation .navigation-sub .work, .articles {
-  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .header .designer {
@@ -187,12 +196,12 @@
 .header-project .navigation .anne a {
   text-decoration: none;
   transition: color 0.2s;
-  text-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+
 }
 
 .header-project .navigation .navigation-sub div a:hover,
 .header-project .navigation .anne a:hover {
-  color: white !important;
+  color: black !important;
 }
 
 .header-project .navigation .navigation-sub div a:visited,
@@ -573,7 +582,7 @@
 /* ABOUT PAGE */
 
 .about-image {
-  width: 784px;
+  width: 600px;
   height: 522px;
   box-shadow: 0px 0px 10px rgba(224, 224, 224, 0.5);
 }

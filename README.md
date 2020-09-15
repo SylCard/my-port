@@ -8,9 +8,6 @@
 * [Structure](#structure)
 
 
-## Introduction
-
-This is the repository for my design portfolio. I have created this portfolio from scratch with create-react-app and published it to Github Pages with a custom domain. A live demo can be viewed here [here](https://annelee.co).
 
 
 ## Functionality

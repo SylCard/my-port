@@ -22,28 +22,23 @@ class Footer extends Component {
         </div>
         <div className="social-links">
           <div className="social">
-            <a href="https://www.behance.net/designeranne" target="_blank" rel="noopener noreferrer">
-              <img className="behance" src={this.state.behance} alt="Behance Logo"/>
-            </a>
-          </div>
-          <div className="social">
-            <a href="https://www.linkedin.com/in/annesohyunlee/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/sylvester-c/" target="_blank" rel="noopener noreferrer">
               <img className="linkedin" src={this.state.linkedin} alt="Linkedin Logo"/>
             </a>
           </div>
           <div className="social">
-            <a href="https://medium.com/@annelee_22736" target="_blank" rel="noopener noreferrer">
+            <a href="https://medium.com/@silvercloud438" target="_blank" rel="noopener noreferrer">
               <img className="medium" src={this.state.medium} alt="Medium Logo"/>
             </a>
           </div>
           <div className="social-last">
-            <a href="mailto:annesohyunlee@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:sylvester@cardorelle.io" target="_blank" rel="noopener noreferrer">
               <img className="email" src={this.state.email} alt="Email Logo"/>
             </a>
           </div>
         </div>
         <div className="footer-copyright">
-          © 2019, Anne Lee
+          © 2020 Made with love by Sylvester Cardorelle
         </div>
       </div>
     );

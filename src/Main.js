@@ -4,10 +4,11 @@ import './App.css';
 import './Responsive.css';
 import './Hamburgers.css';
 import Project from './Project.js';
-import projectone from './img/project-tn-01.png';
-import projecttwo from './img/project-tn-02.png';
-import projectthree from './img/project-tn-03.png';
-import projectfour from './img/project-tn-04.png';
+import projectone from './img/p1.jpg';
+import projecttwo from './img/map.jpg';
+import projectthree from './img/project3.jpg';
+import projectfour from './img/project4.jpg';
+import Article from './Article.js';
 
 class Main extends Component {
   state = {
@@ -43,7 +44,7 @@ class Main extends Component {
       <div className="body">
         <section className="header">
           <div className="navigation">
-            <div className="anne"><Link to="/" className="active">Anne Lee</Link></div>
+            <div className="anne"><Link to="/" className="active">Sylvester Cardorelle</Link></div>
             <button className="hamburger hamburger--spin mobile" type="button" onClick={this.toggleMenu}>
               <span className="hamburger-box">
                 <span className="hamburger-inner"></span>
@@ -51,81 +52,84 @@ class Main extends Component {
             </button>
             <div className="overlay mobile">
               <div className="submenus">
-                <div className="work-mobile"><Link to="/" className="active">Work</Link></div>
-                <div className="articles-mobile"><Link to="/articles">Articles</Link></div>
                 <div className="about-mobile"><Link to="/about">About</Link></div>
+                <div className="work-mobile"><Link to="/" className="active">Work</Link></div>
+                <div className="articles-mobile"><a href="mailto:sylvester@cardorelle.io" target="_blank" rel="noopener noreferrer">Contact</a></div>
               </div>
             </div>
             <div className="navigation-sub">
-              <div className="work"><Link to="/" className="active">Work</Link></div>
-              <div className="articles"><Link to="/articles">Articles</Link></div>
               <div className="about"><Link to="/about">About</Link></div>
+              <div className="work"><Link to="/" className="active">Work</Link></div>
+              <div className="articles"><a href="mailto:sylvester@cardorelle.io" target="_blank" rel="noopener noreferrer">Contact</a></div>
             </div>
           </div>
           <div className="designer">
-            Product Designer
+            Full-Stack Engineer
           </div>
           <div className="speciality">
-            UX UI / Front-End Development
+            Full-Time Listener
           </div>
         </section>
         <section className="projects">
           {window.innerWidth<=1009 ?
             <div className="left">
               <p className="projects-intro">
-                I design intuitive digital experiences<br/>in which <span className="bold">every element serves a purpose</span>.<br/>My designs give form to <span className="bold">product visions</span>,<br/>and <span className="bold">arouses emotion</span> in billions of users.
+                I enjoy finding peculiar<br/> solutions <span className="bold">to complex problems</span>.<br/> Above all else, I aspire <span className="bold">to build things that make people happy</span>.<br/>Or atleast go "wow, that's cool".
               </p>
               <Project
                 aos=""
                 image={this.state.projectOneImage}
-                link="/prismvideo"
+                link="/imf"
                 hmwClass="hmw"
                 class="project-default"
-                hmw={["How might we improve", <br/>, "the usability of the app", <br/>, "for Vlog creators?"]}
+                hmw={["A musical mood prediction App using Spotify data"]}
                 color="rgba(11, 156, 150, 0.95)"
-                title="PRISM Video Editing Redesign"
-                category="Mobile Application"
+                title="In My Feelings"
+                category="App"
                 index="0"
               />
               <Project
                 aos="fade-up"
                 image={this.state.projectThreeImage}
-                link="/schole"
+                link=""
+                hyper="https://medium.com/@silvercloud438/how-i-taught-a-neural-network-to-understand-similarities-in-music-audio-d4fca54c1aed"
                 hmwClass="hmw hmw-exception"
                 class="project-last"
-                hmw={["How might we create value", <br/>, "for the content providers", <br/>, "of an education platform?"]}
+                hmw={["How can we recommend music using Deep Learning?"]}
                 color="rgba(233, 111, 94, 0.95)"
-                title="Scholé Website Renewal"
-                category="PC / Mobile Web"
+                title="Deep Content Music Recommendation"
+                category="Research"
                 index="1"
               />
             </div> :
             <div className="left">
               <p className="projects-intro">
-                I design intuitive digital experiences<br/>in which <span className="bold">every element serves a purpose</span>.<br/>My designs give form to <span className="bold">product visions</span>,<br/>and <span className="bold">arouses emotion</span> in billions of users.
+                I enjoy finding peculiar<br/> solutions <span className="bold">to complex problems</span>. <br/> Above all else, I aspire <span className="bold">to build things that make people happy</span>.<br/>Or atleast go "wow, that's cool".
               </p>
               <Project
                 aos=""
-                image={this.state.projectOneImage}
-                link="/prismvideo"
+                image={this.state.projectTwoImage}
+                link=""
+                hyper="https://sylcard.github.io/covidMap/"
                 hmwClass="hmw"
                 class="project-default"
-                hmw={["How might we improve", <br/>, "the usability of the app", <br/>, "for Vlog creators?"]}
+                hmw={["How is our planet doing?"]}
                 color="rgba(11, 156, 150, 0.95)"
-                title="PRISM Video Editing Redesign"
-                category="Mobile Application"
+                title="COVID-19 Map"
+                category="App"
                 index="0"
               />
               <Project
-                aos=""
+                aos="fade-up"
                 image={this.state.projectThreeImage}
-                link="/schole"
-                hmwClass="hmw"
+                link=""
+                hyper="https://medium.com/@silvercloud438/how-i-taught-a-neural-network-to-understand-similarities-in-music-audio-d4fca54c1aed"
+                hmwClass="hmw hmw-exception"
                 class="project-last"
-                hmw={["How might we create value", <br/>, "for the content providers", <br/>, "of an education platform?"]}
+                hmw={["How can we recommend music using Deep Learning?"]}
                 color="rgba(233, 111, 94, 0.95)"
-                title="Scholé Website Renewal"
-                category="PC / Mobile Web"
+                title="Deep Content Music Recommendation"
+                category="Research"
                 index="1"
               />
             </div>
@@ -133,53 +137,55 @@ class Main extends Component {
           {window.innerWidth<=1009 ?
             <div className="right">
               <Project
-                aos="fade-up"
-                image={this.state.projectTwoImage}
-                link="/prismlayout"
-                hmwClass="hmw hmw-exception"
-                class="project-default"
-                hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
-                color="rgba(251, 192, 96, 0.95)"
-                title="PRISM Live Layout Redesign"
-                category="PC Application"
-                index="2"
+              aos="fade-up"
+              image={this.state.projectOneImage}
+              link="/imf"
+              hmwClass="hmw hmw-exception"
+              class="project-default"
+              hmw={["A musical mood prediction App using Spotify data"]}
+              color="rgba(251, 192, 96, 0.95)"
+              title="In My Feelings"
+              category="App"
+              index="2"
               />
               <Project
-                aos="fade-up"
-                image={this.state.projectFourImage}
-                link="/framer30"
-                hmwClass="hmw hmw-exception"
-                class="project-default"
-                hmw={["How might we create", <br/>, "interactive prototypes", <br/>, "with React.js?"]}
-                color="rgba(114, 164, 238, 0.95)"
-                title="30 Days of Framer X"
-                category="Interactive Prototypes"
-                index="3"
+              aos=""
+              image={this.state.projectFourImage}
+              link=""
+              hyper="https://towardsdatascience.com/identifying-legendary-pok%C3%A9mon-using-the-random-forest-algorithm-ed0904d07d64"
+              hmwClass="hmw hmw-exception"
+              class="project-default"
+              hmw={["Can we use ML to find Legendary Pokemon?"]}
+              color="rgba(114, 164, 238, 0.95)"
+              title="Legendary Pokemon Identification"
+              category="Research"
+              index="3"
               />
             </div> :
             <div className="right">
               <Project
-                aos=""
-                image={this.state.projectTwoImage}
-                link="/prismlayout"
-                hmwClass="hmw"
-                class="project-default"
-                hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
-                color="rgba(251, 192, 96, 0.95)"
-                title="PRISM Live Layout Redesign"
-                category="PC Application"
-                index="2"
+              aos="fade-up"
+              image={this.state.projectOneImage}
+              link="/imf"
+              hmwClass="hmw hmw-exception"
+              class="project-default"
+              hmw={["A musical mood prediction App using Spotify data"]}
+              color="rgba(251, 192, 96, 0.95)"
+              title="In My Feelings"
+              category="App"
+              index="2"
               />
               <Project
                 aos=""
                 image={this.state.projectFourImage}
-                link="/framer30"
+                link=""
+                hyper="https://towardsdatascience.com/identifying-legendary-pok%C3%A9mon-using-the-random-forest-algorithm-ed0904d07d64"
                 hmwClass="hmw"
                 class="project-default"
-                hmw={["How might we create", <br/>, "interactive prototypes", <br/>, "with React.js?"]}
+                hmw={["Can we use ML to find Legendary Pokemon?"]}
                 color="rgba(114, 164, 238, 0.95)"
-                title="30 Days of Framer X"
-                category="Interactive Prototypes"
+                title="Legendary Pokemon Identification"
+                category="Research"
                 index="3"
               />
             </div>
