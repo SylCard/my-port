@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/my-port/static/js/2.227e2853.chunk.js"
   },
   {
-    "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
-    "url": "/my-port/static/media/CircularStd-Black.b5fa1b55.woff"
-  },
-  {
     "revision": "2153a12d1db4eda5b954e54532175e5d",
     "url": "/my-port/static/media/CircularStd-BlackItalic.2153a12d.woff"
+  },
+  {
+    "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
+    "url": "/my-port/static/media/CircularStd-Black.b5fa1b55.woff"
   },
   {
     "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
