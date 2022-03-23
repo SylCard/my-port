@@ -16,6 +16,10 @@ self.__precacheManifest = [
     "url": "/my-port/static/js/2.5957b307.chunk.js"
   },
   {
+    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
+    "url": "/my-port/static/media/CircularStd-Bold.6f4fe3ca.woff"
+  },
+  {
     "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
     "url": "/my-port/static/media/CircularStd-Black.b5fa1b55.woff"
   },
@@ -24,24 +28,20 @@ self.__precacheManifest = [
     "url": "/my-port/static/media/CircularStd-BlackItalic.2153a12d.woff"
   },
   {
-    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
-    "url": "/my-port/static/media/CircularStd-Bold.6f4fe3ca.woff"
-  },
-  {
     "revision": "8d5dbe8149820b1202cbaf34b7204598",
     "url": "/my-port/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
   },
   {
-    "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
-    "url": "/my-port/static/media/CircularStd-Medium.e47ea4c0.woff"
+    "revision": "cc06409e5a820f455b3b4883fbf9b72f",
+    "url": "/my-port/static/media/CircularStd-BookItalic.cc06409e.woff"
   },
   {
     "revision": "c47d7e581f2a563f8dedd4509c106fb8",
     "url": "/my-port/static/media/CircularStd-Book.c47d7e58.woff"
   },
   {
-    "revision": "cc06409e5a820f455b3b4883fbf9b72f",
-    "url": "/my-port/static/media/CircularStd-BookItalic.cc06409e.woff"
+    "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
+    "url": "/my-port/static/media/CircularStd-Medium.e47ea4c0.woff"
   },
   {
     "revision": "eddb70218f38749eaeeed7fba894fda8",
