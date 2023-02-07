@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "129653e682757f327905",
-    "url": "/static/css/main.f305c2e7.chunk.css"
+    "revision": "0101a989a74a41b52ea6",
+    "url": "/static/css/main.4409219c.chunk.css"
   },
   {
-    "revision": "129653e682757f327905",
-    "url": "/static/js/main.788b5d83.chunk.js"
+    "revision": "0101a989a74a41b52ea6",
+    "url": "/static/js/main.9e5da5be.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.c5541365.js"
   },
   {
-    "revision": "7767a54101939347eea1",
-    "url": "/static/js/2.5957b307.chunk.js"
-  },
-  {
-    "revision": "2153a12d1db4eda5b954e54532175e5d",
-    "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
+    "revision": "ac68d9761a7f3291cf6e",
+    "url": "/static/js/2.65bb527b.chunk.js"
   },
   {
     "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
@@ -28,6 +24,10 @@ self.__precacheManifest = [
     "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
   },
   {
+    "revision": "2153a12d1db4eda5b954e54532175e5d",
+    "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
+  },
+  {
     "revision": "8d5dbe8149820b1202cbaf34b7204598",
     "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
   },
@@ -36,16 +36,16 @@ self.__precacheManifest = [
     "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
   },
   {
-    "revision": "eddb70218f38749eaeeed7fba894fda8",
-    "url": "/static/media/CircularStd-MediumItalic.eddb7021.woff"
+    "revision": "cc06409e5a820f455b3b4883fbf9b72f",
+    "url": "/static/media/CircularStd-BookItalic.cc06409e.woff"
   },
   {
     "revision": "c47d7e581f2a563f8dedd4509c106fb8",
     "url": "/static/media/CircularStd-Book.c47d7e58.woff"
   },
   {
-    "revision": "cc06409e5a820f455b3b4883fbf9b72f",
-    "url": "/static/media/CircularStd-BookItalic.cc06409e.woff"
+    "revision": "eddb70218f38749eaeeed7fba894fda8",
+    "url": "/static/media/CircularStd-MediumItalic.eddb7021.woff"
   },
   {
     "revision": "a422118babdf802bc395213c130f6396",
@@ -212,7 +212,7 @@ self.__precacheManifest = [
     "url": "/static/media/pp2.b8fbd4e3.jpg"
   },
   {
-    "revision": "ba42a7c44513e0a2e2a96cee5824af3f",
+    "revision": "e4502ae5e6a6f1cf0a64e61edf5b452d",
     "url": "/index.html"
   }
 ];
